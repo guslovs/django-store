@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+  Starting Page
+{% endblock %}
+
+{% block css_files %}
+  <link rel="stylesheet" href="{% static "store/startingpage.css" %}">
+{% endblock %}
+
+{% block content %}
+  <section id="section1">
+    <div>
+      <img src="{% static "store/pictures/Logo_nike_principal.jpg" %}" alt="Logo">
+      <h1>Official Nike Website</h1>
+      <a href="{% url "favourite" %}" id="favourite">
+        <h3>Favourite's</h3>
+      </a>
+    </div>
+  </section>
+
+  <section id="pic1">
+    <img src="{% static "store/pictures/1689598104962.png" %}" alt="pic1" width="1500" height="500">
+  </section>
+
+  <section id="categories">
+    <h1>Categories</h1>
+
+    <div id="female">
+      <img src="{% static "store/pictures/pdp.jpg" %}" alt="female">
+      <a href="{% url "female" %}">
+        <button id="femalebtn">Explore</button>
+      </a>
+      <p id="femalep">'Female Shoes'</p>
+    </div>
+
+    <div id="male">
+      <img src="{% static "store/pictures/191-best-nike-walking-shoes-02-15757318-main.webp" %}" alt="male">
+      <a href="{% url "male" %}">
+        <button id="malebtn">Explore</button>
+      </a>
+      <p id="malep">'Male Shoes'</p>
+    </div>
+
+    <div id="kids">
+      <img src="{% static "store/pictures/nike-kids-shoes-new-sizing-info.webp" %}" alt="kids">
+      <a href="{% url "kids" %}">
+        <button id="kidsbtn">Explore</button>
+      </a>
+      <p id="kidsp">'Kid's Shoes'</p>
+    </div>
+
+    <div id="sports">
+      <img src="{% static "store/pictures/rw-nike-668d1e73f27bf.avif" %}" alt="sports">
+      <a href="{% url "sports" %}">
+        <button id="sportsbtn">Explore</button>
+      </a>
+      <p id="sportsp">'Sport's Shoes'</p>
+    </div>
+  </section>
+{% endblock %}

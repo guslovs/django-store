@@ -1,0 +1,218 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+div img{
+    width: 70px;
+    height: 50px;
+    position: relative;
+    left: 60px;
+}
+
+#navigation {
+    position: relative;
+    left: 525px;
+    bottom: 50px;
+    height: 100%;
+}
+
+#navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 1px 17px;
+    text-decoration: none;
+}
+
+#navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#categories {
+    text-align: center;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    left: 550px;
+}
+
+#female img {
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    left: 195px;
+}
+
+#male img {
+    width: 745px;
+    height: 350px;
+    position: absolute;
+    left: -550px;
+}
+
+#kids img {
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    left: -550px;
+    top: 560px;
+}
+
+#sports img {
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    left: 195px;
+    top: 560px;
+}
+
+#female #femalebtn {
+    position: absolute;
+    left: 70%;
+    bottom: -300px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 24px;
+    font-size: medium;
+}
+
+#female #femalebtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#male #malebtn {
+    position: absolute;
+    left: -120%;
+    bottom: -300px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 24px;
+    font-size: medium;
+}
+
+#male #malebtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#kids #kidsbtn {
+    position: absolute;
+    left: -120%;
+    bottom: -650px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 24px;
+    font-size: medium;
+}
+
+#kids #kidsbtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#sports #sportsbtn {
+    position: absolute;
+    left: 70%;
+    bottom: -650px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 24px;
+    font-size: medium;
+}
+
+#sports #sportsbtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#section1 h1 {
+    text-align: center;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: -7px;
+    left: 43.5%;
+    font-weight: 500;
+}
+
+#femalep {
+    position: absolute;
+    left: 250px;
+    bottom: -250px;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+#malep {
+    position: absolute;
+    left: -124%;
+    bottom: -250px;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+#kidsp {
+    position: absolute;
+    left: -124%;
+    bottom: -600px;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+#sportsp {
+    position: absolute;
+    left: 250px;
+    bottom: -600px;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+#favourite h3 {
+    text-align: right;
+    position: absolute;
+    right: 50px;
+    top: -2px;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+#cart h3 {
+    text-align: right;
+    position: absolute;
+    right: 180px;
+    top: -2px;
+    font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+#section1 a {
+    text-decoration: none;
+    color: black;
+}
